@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html onselectstart="return false" oncontextmenu="return false">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Cv Web! </title>
+        <link rel="shutcut icon" href="img/cv.png">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/javascript" href="js/java.js"/>
+    </head>
+    <body id="goFS" onload=" startTime();dataHora()">
+      <!-- mobile version-->
+      <div class="mobile-version">
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+          <strong>Seja bem vindo!</strong><hr>Este site funciona melhor em tela cheia, ao fechar esse alerta o mesmo ira entrar em tela cheia.        
+          <button onclick="openFullscreen()" type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+          <div class="container-sm">
+              <div id ="cabecalho">
+                  <div class="row">
+                      <div class="col-4" style="text-align: left;">
+                        <div id="horas"></div>
+                      </div>
+                      <div class="col-4" style="text-align: center;">
+                        Clayton
+                      </div>
+                      <div class="col-4" style="text-align: right;">
+                        <img src="img/test.png" width="92px">
+                      </div>
+                      <div class="col-12">
+                          <img src="img/barra-pesquisa.png" width="100%" style="margin-top: -30px;">
+                      </div>
+                      <div class="col-8">
+                          <div id="hora"></div>
+                          <div id="data-f"></div>
+                      </div>
+                      <div class="col-4">
+                        <button type="button" onclick="ButtonFull()" style="padding-top: 30%;">
+                          <img class="img" src="img/fullscreen.png" width="50px" height="50px">
+                          Fullscreen 
+                        </button>
+                      </div>
+                  </div>
+              </div>
+              <div class="row" id="conteudo-central">
+                      <div class="col-3" >
+                        <button id="pastas"  type="button" data-toggle="modal" data-target="#exampleModalCenter" width="100%">
+                          <img class="img" src="img/3item.png" width="50px" height="50px">
+                        </button>
+                             Sites
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                          <div class="container">
+                            <div class="row" id="cabecalho">
+                              <div class="col-4" style="text-align: left;">
+                                  <div id="horas2"></div>
+                              </div>
+                              <div class="col-4" style="text-align: center;">
+                                  Clayton
+                              </div>
+                              <div class="col-4" style="text-align: right;">
+                                  <img src="img/test.png" width="92px">
+                              </div>
+                          </div>
+                        </div>
+                          <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content" id="pasta-projetos">
+                              <div class="modal-body">
+                                <div class="projetos">
+                                  <div class="row" style="padding-top: 65px;">
+                                    <div class="col-4">
+                                      <a href="loja/index.html" target="_blank"><button><img class="img" src="loja/img/icone.jpg" width="70px"></button></a>
+                                      Market
+                                    </div>
+                                    <div class="col-4">
+                                      <a href="G1.com/index.html" target="_blank"><button onclick="Alerta()"><img class="img" src="G1.com/media/G1.png" width="70px"></button></a>
+                                      G1.com
+                                    </div>
+                                    <div class="col-4">
+                                      <a href="americanas/index.html" target="_blank"><button onclick="Alerta()"><img class="img" src="americanas/media/page_1.jpg" width="70px"></button></a>
+                                      Americanas 
+                                    </div>
+                                    <div class="col-4" style="padding-top: 15px;">
+                                      <a href="Kimi-Mate/index.html" target="_blank"><button><img class="img" src="Kimi-Mate/img/kimi3.png" width="70px"></button></a>
+                                      Kimi Store 
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                       
+                      </div>
+                      <div class="col-3">
+                       
+                      </div>
+                      <div class="col-3">
+                        <a href="rainbow six/index.html" target="_blank">
+                          <button id="pastas" onclick="Alerta()" width="100%">
+                            <img class="img" src="rainbow six/img/verso.jpg" width="50px" height="50px">
+                          </button>
+                        </a>
+                        Jogo da Memoria
+                      </div>                    
+              </div>
+              <div class="row" id="conteudo-baixo">
+                  <div class="col-4">
+                      <button><img src="img/icon-test.png" width="60px"></button>
+                  </div>
+                  <div class="col-4">
+                    <button type="button" class="botao" data-toggle="modal" data-target="#exampleModalLong">
+                        <img src="img/text.png" width="60px"> Currículo.txt
+                      </button>                    
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">
+                                <div class="titulos-curriculo">
+                                    <h1><strong>Clayton da Silva da Rocha</strong></h>
+                                  </div>
+                              </h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <div class="row" id="pagina-curriculo">
+                                          Rua Clóvis Beviláqua, 473 – Vargem Grande - Pinhais – PR  <br>
+                                          Telefone: (41) 98472-2329 / (41) 3097-0330 <br>
+                                          E-mail: claytonsilvar@hotmail.com <br>
+                                          Idade: 19 anos <br>
+                                          Estado Civil: Solteiro 
+                                          <br><br>
+                                          <div class="titulos-curriculo">
+                                            <strong>⠀</strong>
+                                          </div>
+                                          <div class="titulos-curriculo">
+                                            <strong> Objetivos </strong>
+                                          </div>
+                                          Atualmente, busco uma nova oportunidade no mercado, a fim de ampliar meus conhecimentos. 
+                                          <br> <br>
+                                          <div class="titulos-curriculo">
+                                            <strong>Formação</strong>
+                                          </div> 
+                                            <li>
+                                              Ensino Superior – Bacharelado em Sistemas de Informação – em andamento, <br>  
+                                              UTFPR – Universidade Tecnológica Federal do Paraná. <br>  
+                                              Previsão de Conclusão: julho/2023.
+                                            </li>
+                                            <li>
+                                              Ensino Médio – Escola Estadual Mathias Jacomel – Concluído em 2018. 
+                                            </li>
+                                            <br>
+                                            <div class="titulos-curriculo">
+                                              <strong><br>Experiência</strong>
+                                            </div>
+                                            <li>
+                                              Cargo: Auxiliar de Produção – novembro de 2016 à novembro de 2017. <br>  
+                                              <ul>
+                                                  Romanha Indústria de Alimentos <br> 
+                                                  Atividades Exercidas: Executar funções conforme a necessidade do setor, sempre com supervisão <br>  
+                                                  de seu superior imediato, seguir a política e os procedimentos do sistema de qualidade, executar <br>  
+                                                  outras funções auxiliares conforme necessidade. 
+                                              </ul>
+                                            </li>
+                                            <li>
+                                              Cargo: Agente de CallCenter <br>   
+                                              <ul>
+                                                  BTCC Conexão Cliente <br>  
+                                                  Principais responsabilidades: Realizar vendas ativas ou receptivas de produtos via telefone, emitir e <br>   
+                                                  finalizar solicitação de venda no sistema do provedor, efetuar registros e solicitações nos sistemas. 
+                                              </ul>
+                                            </li>
+                                            <br> 
+                                            <div class="titulos-curriculo">
+                                              <strong>Qualificações</strong>
+                                            </div>
+                                            <li>
+                                              Curso Logística – Modais e suas Importâncias – CIEE – Carga horária: 8 horas.
+                                            </li>
+                                            <li>
+                                              Curso Auxiliar Administrativo – SENAI – Carga horária: 1152 horas;
+                                              <ul>
+                                                <li>
+                                                  Segurança do Trabalho – SENAI – Carga horária: 74 horas;
+                                                </li>
+                                                <li>
+                                                  Raciocínio Logico e Análise de Dados – SENAI – Carga horária: 180 horas;
+                                                </li>
+                                                <li>
+                                                  Fundamentos de Rotinas Administrativas, Contábil e Financeira – SENAI – <br> Carga horária: 148horas;
+                                                </li>
+                                                <li>
+                                                  Fundamentos de Produção e Logística – SENAI – Carga horária: 212 horas;
+                                                </li>
+                                                <li>
+                                                  Excel Avançado – SENAI – Carga horária: 36 horas;
+                                                </li>
+                                                <li>
+                                                  Inglês Técnico – SENAI – Carga horária: 36 horas;
+                                                </li>
+                                                <li>
+                                                  Disciplinas Optativas (Fase empresa) – Carga horária: 828 horas;
+                                                </li>
+                                              </ul> 
+                                            </li>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button class="mx-auto" value="imprimir" onclick="myFunction();window.print();"> <img src="img/print.png" width="40px"> </button>
+                              <a class="mx-auto" download="Clayton.pdf" href="corriculo.pdf"> <img src="img/imp.png" width="40px" margin-bottom="20px"> </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                  <div class="col-4">
+                      <button><img src="img/icon-test.png" width="60px"></button>
+                  </div>
+              </div>
+          </div>
+          <div id="desktop-alert" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Seja bem vindo!</strong><hr>Este site foi feito para ser vizualido em Mobile, sua versão desktop ainda esta em desenvolvimento
+            <hr>
+            Experimente Inspecionar a pagina para obter vizualização mobile, ou apenas pressione CTRL + SHIFT + I.        
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>      
+      </div>
+      <!-- desktop -->
+        <div class="loader">
+          <img src="img/loading.gif" alt="Loading..." />
+        </div>
+      <div class="container cont-container desktop-version" >
+        <div class="row" id="cabecalho">
+            <div class="col-4 item-cabecalho">
+              <div class="btn-group dropleft">
+                <button type="button" class="dropdown-toggle button-out" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-top: -5px;margin-left: -10px;">
+                  <img src="img/outbutton.png" width="22px">
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="https://www.facebook.com/ClaytonnSr/" target="_blank"><img src="img/facebook.png" width="20px" style="margin-bottom: 5px;"> Facebook</a>
+                  <a class="dropdown-item" href="mailto:claytonsilvar@hotmail.com" target="_top"><img src="img/enviar.png" width="20px" style="margin-bottom: 5px;"> Email</a>
+                  <a class="dropdown-item" href="https://api.whatsapp.com/send?phone=5541984722329" target="_blank"><img src="img/whatsapp.png" width="20px" style="margin-bottom: 5px;"> Whatsapp</a>
+                  <hr>
+                  <center> <button onclick="desejaSair()" class="button-out dropdown-item" type="button" data-toggle="modal" data-target=".bd-example-modal-sm"><img src="img/outbutton.png" width="30px"></button> </center>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 horas item-cabecalho">
+                <div id="relogio"></div>
+            </div>
+            <div class="col-4 icones item-cabecalho">
+                <img src="img/bolinhas.png" style="margin-right: -10px; margin-bottom: 5px; width: 35%;"> 
+            </div>
+        </div>     
+        <div class="row">
+            <div class="col-2">
+                <div class="col lateral-esquerda">
+                <br>
+                <button type="button" onclick="abrirPastaCvWEB();" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="img/pasta.png" width="90%">Cv Abril</button>
+                <br><br>
+                <button onclick="erroReprodizor()" type="button" data-toggle="modal" data-target=".bd-example-modal-sm"><img src="img/pasta.png" width="90%">Lorim</button>
+                <br><br>
+                <button onclick="erroReprodizor()" type="button" data-toggle="modal" data-target=".bd-example-modal-sm"><img src="img/pasta.png" width="90%">Lorim</button>
+                <br><br>
+                <button onclick="erroReprodizor()" type="button" data-toggle="modal" data-target=".bd-example-modal-sm"><img src="img/pasta.png" width="90%">Lorim</button>
+                </div>
+            </div>
+            <div class="col-10">
+                <div class="col lateral-direita">
+                    <br>
+                    <!-- PAGINA CURRICULO -->
+                    <button type="button" class="right-button" data-toggle="modal" data-target=".bd-example-modal-xl"> <img src="img/text.png" width="100%"></button>
+                    <p> Currículo.txt </p>
+                    <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="row">
+                                <div class="col-1">
+                                    <button type="button" class="close" aria-label="Close" data-dismiss="modal">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="col text-txt" style="color: black;">
+                                    Currículo.txt
+                                </div>
+                                <div class="col-1" style="margin-right:25px ;">
+                                    <button type="button" class="close" aria-label="Close" data-dismiss="modal">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="linha-horizontal"></div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="container-ms">
+                                        <div class="row" id="pagina-curriculo">
+                                        <div class="col-1">
+                                          <div class="linha-vertical"></div>
+                                        </div>
+                                        <div class="col" id="text">
+                                          <div>
+                                            <div class="titulos-curriculo"><br><br><br>
+                                              <h2><strong>Clayton da Silva da Rocha</strong></h2>
+                                            </div> <br>
+                                            Rua Clóvis Beviláqua, 473 – Vargem Grande - Pinhais – PR  <br>
+                                            Telefone: (41) 98472-2329 / (41) 3097-0330 <br>
+                                            E-mail: claytonsilvar@hotmail.com <br>
+                                            Idade: 19 anos <br>
+                                            Estado Civil: Solteiro 
+                                            <br><br>
+                                            <div class="titulos-curriculo">
+                                              <strong> Objetivos </strong>
+                                            </div>
+                                            Atualmente, busco uma nova oportunidade no mercado, a fim de ampliar meus conhecimentos. 
+                                            <br> <br>
+                                            <div class="titulos-curriculo">
+                                              <strong>Formação</strong>
+                                            </div> 
+                                              <li>
+                                                Ensino Superior – Bacharelado em Sistemas de Informação – em andamento, <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                UTFPR – Universidade Tecnológica Federal do Paraná. <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                Previsão de Conclusão: julho/2023.
+                                              </li>
+                                              <li>
+                                                Ensino Médio – Escola Estadual Mathias Jacomel – Concluído em 2018.
+                                              </li>
+                                              <br>
+                                              <div class="titulos-curriculo">
+                                                <strong>Experiência</strong>
+                                              </div>
+                                              <li>
+                                                Cargo: Auxiliar de Produção – novembro de 2016 à novembro de 2017. <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                Romanha Indústria de Alimentos <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                Atividades Exercidas: Executar funções conforme a necessidade do setor, sempre com supervisão <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                de seu superior imediato, seguir a política e os procedimentos do sistema de qualidade, executar <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                outras funções auxiliares conforme necessidade. 
+                                              </li>
+                                              <li>
+                                                Cargo: Agente de CallCenter <br>  &nbsp;&nbsp;&nbsp;&nbsp;
+                                                BTCC Conexão Cliente <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                Principais responsabilidades: Realizar vendas ativas ou receptivas de produtos via telefone, emitir e <br>  &nbsp;&nbsp;&nbsp;&nbsp;
+                                                finalizar solicitação de venda no sistema do provedor, efetuar registros e solicitações nos sistemas. 
+                                              </li>
+                                              <br> 
+                                              <div class="titulos-curriculo">
+                                                <strong>Qualificações</strong>
+                                              </div>
+                                              <li>
+                                                Curso Logística – Modais e suas Importâncias – CIEE – Carga horária: 8 horas.
+                                              </li>
+                                              <li>
+                                                Curso Auxiliar Administrativo – SENAI – Carga horária: 1152 horas;
+                                                <ul>
+                                                  <li>
+                                                    Segurança do Trabalho – SENAI – Carga horária: 74 horas;
+                                                  </li>
+                                                  <li>
+                                                    Raciocínio Logico e Análise de Dados – SENAI – Carga horária: 180 horas;
+                                                  </li>
+                                                  <li>
+                                                    Fundamentos de Rotinas Administrativas, Contábil e Financeira – SENAI – <br> Carga horária: 148horas;
+                                                  </li>
+                                                  <li>
+                                                    Fundamentos de Produção e Logística – SENAI – Carga horária: 212 horas;
+                                                  </li>
+                                                  <li>
+                                                    Excel Avançado – SENAI – Carga horária: 36 horas;
+                                                  </li>
+                                                  <li>
+                                                    Inglês Técnico – SENAI – Carga horária: 36 horas;
+                                                  </li>
+                                                  <li>
+                                                    Disciplinas Optativas (Fase empresa) – Carga horária: 828 horas;
+                                                  </li>
+                                                </ul>
+                                                
+                                              </li>
+                                            </div>
+                                        </div> 
+                                        <div class="col-12" id="func-imp-download">
+                                          <div class="row">
+                                            <div class="col">
+                                              <button class="button-curr" value="imprimir" onclick=" myFunction(); window.print();"> <img src="img/print.png" width="40px"> </button>
+                                            </div>
+                                            <div class="col">
+                                              <a download="Clayton.pdf" href="corriculo.pdf"> <button class="button-curr"> <img src="img/imp.png" width="40px" margin-bottom="20px"> </button> </a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        </div>                         
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- PAGINA CURRICULO -->
+                    <!-- PAGINA PASTAS -->
+                    <button type="button" onclick="voltarInicio(); pastasLateralProjetos();" data-toggle="modal" data-target=".bd-example-modal-lg" class="right-button"><img src="img/pasta.png" width="100%"></button>
+                    <p style="margin-right: 10px;"> Projetos </p>
+                      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="fechar-pasta">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content cabecalho-pasta">
+                            <div class="row">
+                              <div class="col-6">&nbsp;&nbsp;&nbsp;...</div>
+                              <div class="col-6"> <img src="img/bolinhas.png" style="margin-left: 315px; margin-top: 5px;"> </div>
+                              <div class="col-12"> <center> Projetos </center></div>   
+                            </div>
+                              <div class="bg-pasta">
+                                <div class="row">
+                                  <div class="col-1" id="button-home">
+                                    <button style="margin-top: 5px; margin-left: 5px;" onclick="voltarInicio()"> <img src="img/home.png" width="100%"></button>
+                                  </div>
+                                  <div class="col-11">
+                                    <div class="janela-pesquisa" id="janela-pesquisa">   
+                                    </div>
+                                  </div>
+                                  <div class="col-3" id="barra-lateral-pasta"> <br>
+                                    
+                                  </div>
+                                  <div class="col-9">
+                                    <div class="cont-pasta" id="pastaPrincipal">  
+                                    </div> 
+                                  </div>
+                                </div>
+                              </div>         
+                          </div>
+                        </div>
+                      </div>
+              <!-- PAGINA PASTAS -->
+                </div>
+            </div>
+        </div>     
+      </div>
+       <!-- CONFIRMAÇÃO DE SAIRDA -->
+       <div class="modal fade bd-example-modal-sm btn-sair" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="row" id="conteudo-erro">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- CONFIRMAÇÃO DE SAIRDA -->
+  
+
+
+
+    <script src="js/java.js"> </script>
+    <!-- Bootstrap -->
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap --> 
+    </body>
+</html>
