@@ -1,0 +1,9 @@
+body{font-size:15px}header{background-color:#fff;text-align:center}.container{font-family:arial;color:#8d8383}
+#menu ul{text-align:center;width:100%;height:auto;padding:1px;margin:0;background-color:#d30f09;list-style:none}
+#menu ul li{display:inline}#menu ul li a{padding:2px 10px;display:inline-block;margin-right:15px;background-color
+:#d30f09;color:#fff;text-decoration:none;border-bottom:3px solid #d30f09}#menu1{border:3px solid #e6e0e0;
+border-radius:8px}#menu1 ul{text-align:center;width:100%;height:auto;padding:1px;margin:0;background-color:#fff;
+list-style:none}#menu1 ul li{margin-left:10px;margin-right:10px;display:inline}#menu1 ul li a{padding:2px 10px;
+display:inline-block;margin-right:15px;background-color:#fff;color:#000;text-decoration:none;border-bottom:
+3px solid #fff}.navbar-brand{margin-left:30px}#BACK{background-color:#fff;border:1px solid #e6e0e0;
+    border-radius:8px}.navbar-text{margin-right:50px;margin-left:100px}col{text-align:center}#cu{text-align:justify}

@@ -1,0 +1,217 @@
+@media screen and (min-width: 601px) {
+    html{
+        background: #1b1d21;
+        background-size: cover;
+    }
+    .mobile-version{visibility: hidden;}
+    body{overflow: hidden; color: blanchedalmond;background-color: rgba(0, 0, 0, 0);}
+    .container-ms,.btn-sair{color: black;}
+    .cont-container{
+        margin-top: 5%;margin-bottom:5% ;
+        width: 800px;height: 540px;
+        background-image: url(../img/bg.jpg);
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }   
+    .desktop-version,.cont-container{margin-top: -400px}
+    #cabecalho{
+        background-color: rgb(48, 47, 47);
+        border-top-left-radius:5px;
+        border-top-right-radius:5px;
+        height: 30px;
+    }
+    .item-cabecalho{margin-top: 3px;}
+    .btn{width: 80%;}
+    .btn-sair{padding-top: 10%;}
+    .button-out:hover{background-color: rgb(41, 40, 40);}
+    .fade{background-color: rgba(24, 24, 24, 0.787);}
+    .horas,.text-txt{text-align: center;}.icones{text-align: right;}button{background-color: rgba(0, 0, 0, 0); border: none;color: blanchedalmond;}button:hover{background-color: rgba(104, 40, 34, 0.445); border-radius: 5px;}
+    .lateral-direita,.lateral-esquerda{
+        height: 440px;
+        margin-top: 35px;
+        text-align: right;
+    }
+    .lateral-esquerda{
+        background-color: rgba(0, 0, 0, 0.452);
+        border-radius: 20px;
+        text-align: center;
+    }
+    .right-button{
+        width: 80px;
+        height: 80px;
+        color: blanchedalmond;
+        margin-left: -3.5px;
+    }
+    .linha-horizontal{
+        width:100%;
+        border-bottom: 1px solid;  
+        color: black;
+    }
+    .dropdown-menu,.dropdown-item{
+        background-color: rgb(48, 47, 47);
+        color: white;
+    }
+    .dropdown-item:hover{
+        background-color: rgb(44, 43, 43);
+        color: white;
+        font-weight: bold;
+    }
+    /* CSS MODAL */
+    .linha-vertical {
+        height: 850px;
+        border-left: 5px solid;
+        color: grey;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+    #pagina-curriculo{
+        text-align: justify;
+        font-size: 13px;
+        background-color: rgba(255, 105, 180, 0);
+    }
+    .titulos-curriculo{
+        color:grey;
+        font-family: Georgia;
+        font-size: 16px;
+        text-align: left;
+    }
+    #func-imp-download{text-align: center;}
+    .button-curr:hover{background-color: rgb(226, 226, 226);}
+    /* CSS MODAL */
+    /* CSS PASTAS */
+    .cabecalho-pasta{ 
+        background-color: rgb(12, 12, 12);
+        color:white;
+        text-align: left;}
+    .bg-pasta{
+        background-color: rgb(31, 30, 30);
+    }
+    .janela-pesquisa{
+        text-align: left;
+        margin-top: 5px;
+        margin-left: -24px;
+        margin-right: 5px;
+        border-style: solid;
+        border-bottom-width: 1px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-left-width: 1px;
+        border-color: grey;
+    }
+    #barra-lateral-pasta{
+        border-style: solid;
+        border-bottom-width: 0px;
+        border-top-width: 0px;
+        border-right-width: 1px;
+        border-left-width: 0px;
+        border-color: grey;
+        margin-top: 5px;
+        text-align: left;
+    }
+    .cont-pasta{
+        background-color: rgb(36, 35, 35);
+        margin-left: -15px;
+        margin-right: 1px;
+        margin-bottom: 1px;
+        margin-top: 5px;
+        height: 500px;
+        text-align: justify;
+    }
+.btn-link:hover{background-color: white;}
+    /*css pas js*/
+    .cont-past-index{
+        width: 1200px;
+        margin-left: -75%;
+        color: black;
+    }
+    /* CSS PASTAS */
+}
+                /*MOBILE*/
+@media screen and (max-width: 600px){
+    body{overflow: hidden;}  
+    .desktop-version{visibility: hidden;}
+    .linha-vertical{background-color: rgb(112, 110, 108);}
+    #desktop-alert{visibility: hidden;}
+    body,body:fullscreen{
+        font-size: small;
+        background-image: url(../img/bg.jpg);
+        color: rgb(255, 255, 255);
+    }
+    #conteudo-central{
+        width: 100%;
+        height: 50px;
+        /*background: #3167b1;*/
+        position: absolute;
+        bottom: 130px;
+        text-align: justify;
+    }
+    #conteudo-baixo{
+        width: 100%;
+        height: 50px;
+        /*background-color: saddlebrown;*/
+        position: absolute;
+        text-align: center;
+        bottom: 40px;
+    }
+    #cabecalho{padding-top:  10px;}
+    button{background-color: rgb(0, 0, 0, 0);border-color: rgb(0, 0, 0, 0);color: aliceblue;}
+    #hora{font-size: 70px;text-align: left;}
+    #data-f{font-size: 22px;margin-top: -20px; margin-left: 15px;}
+    .modal-body,.modal-title{color: black;}
+    /* CSS MODAL CURRICULUM */
+    #pagina-curriculo{
+        text-align: justify;
+        font-size: 13px;
+        background-color: rgba(255, 105, 180, 0);
+    }
+    .titulos-curriculo{
+        color:grey;
+        font-family: Georgia;
+        font-size: 16px;
+        text-align: left;
+    }
+    /* CSS MODAL CURRICULUM */
+    .botao{color: blanchedalmond;}
+    /* CSS MODAL CURRICULUM */
+    #pasta-projetos{background-color: rgba(255, 255, 255, 0.109);}
+    .projetos{color: aliceblue;text-align: center;height: 320px;}
+    .img{border-radius: 20%;}
+    #exampleModalCenter{background-image: url(../img/bg.jpg);overflow: hidden;}
+    #pastas{background-color: rgba(255, 255, 255, 0.109);border-radius: 20%;}        
+}
+
+
+.loader {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1b1d21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader > img {
+    width: 50%;
+}
+
+.loader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.thumb {
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
