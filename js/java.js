@@ -1,6 +1,31 @@
-//PASTA PROJETOS
+// PASTA NO DESKTOP COM NOME DE "PROJETOS" CONTÉM PASTAS COM TODOS OS PROJETOS JÁ FEITO POR MIM.
+function PastaProjetos(){
+  document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='PastaProjetos()'> <img src='img/home.png' width='100%'></button>"
+  document.getElementById("pastaPrincipal").innerHTML="<div clas='row'>"+
+  "<div class='col-12'>"+
+  "<br><button onclick='abrirPastaUm()'><img src='img/img.png' width='70px'><br> Paginas <br> WEB </button> &nbsp;"+
+  //"<button onclick='abrirPastaDois()'><img src='img/img.png' width='70px'><br> Projeto <br> Dois</button>"+ 
+  //"<button onclick='abrirPastaTres()'><img src='img/img.png' width='70px'><br> Projeto <br> Tres</button>"+
+  //"<button onclick='abrirPastaQuatro()'><img src='img/img.png' width='70px'><br> Projeto <br> Quatro</button>"+
+  //"<button onclick='abrirPastaCinco()'><img src='img/img.png' width='70px'><br> Projeto <br> Cinco</button>"+
+  //"<button onclick='abrirPastaSeis()'><img src='img/img.png' width='70px'><br> Projeto <br> Seis</button>"+
+  "</div>"+
+  "</div>" ;
+  document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt; <button onclick='PastaProjetos()'>Projetos</button>";
+  document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' data-dismiss='modal' aria-label='Close'> <img src='img/mini-pasta.png' width='22px'>Desktop</button>"+
+                                                           "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='PastaProjetos'>    <img src='img/mini-pasta.png' width='22px'>Projetos</button>";//+
+                                                          //"<button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaDois()'> <img src='img/mini-pasta.png' width='22px'>pasta dois</button>"+
+                                                          //"<button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaTres()'><img src='img/mini-pasta.png' width='22px'>pasta tres</button>"+
+                                                          //"<button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaQuatro()'><img src='img/mini-pasta.png' width='22px'>pasta quatro</button>"+
+                                                          //"<button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaCinco()'><img src='img/mini-pasta.png' width='22px'>pasta cinco</button>"+
+                                                          //"<button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaSeis()'><img src='img/mini-pasta.png' width='22px'>pasta seis</button>"
+}
+// PASTA NO DESKTOP COM NOME DE "PROJETOS" CONTÉM PASTAS COM TODOS OS PROJETOS JÁ FEITO POR MIM.
+
+// CONTEUDOS DA PASTA "PROJETOS".
+// PASTA COM NOME DE "PAGINAS WEB".
 function abrirPastaUm(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='voltarInicio()'> <img src='img/home.png' width='100%'></button>"
+    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='PastaProjetos()'> <img src='img/home.png' width='100%'></button>"
     document.getElementById("pastaPrincipal").innerHTML=" <div class='container'>"+
                                                             "<div class='row'>"+
                                                                 "<div class='col-2'>"+
@@ -20,56 +45,47 @@ function abrirPastaUm(){
                                                                 "</div>"+
                                                             "</div>"+
                                                         "</div>";
-    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Área de Trabalho </button> &gt; <button onclick='voltarInicio()'>Projetos</button> &gt; <button onclick='abrirPastaUm()'>Paginas WEB</button>";                                        
+    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt; <button onclick='PastaProjetos()'>Projetos</button> &gt; <button onclick='abrirPastaUm()'>Paginas WEB</button>";
+    document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' data-dismiss='modal' aria-label='Close'> <img src='img/mini-pasta.png' width='22px'>Desktop</button>"+
+                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='PastaProjetos()'>    <img src='img/mini-pasta.png' width='22px'>Projetos</button>"+
+                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaUm()'>    <img src='img/mini-pasta.png' width='22px'>Paginas WEB</button>";
 }
+// PASTA COM NOME DE "PAGINAS WEB".
 function abrirPastaDois(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='voltarInicio()'> <img src='img/home.png' width='100%'></button>"
+    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='PastaProjetos()'> <img src='img/home.png' width='100%'></button>"
 	document.getElementById("pastaPrincipal").innerHTML=" <div class='container'> <div class='row'> <div class='col'> <h1> TEST </h1> </div><div class='col'> <h1> PASTA 2 </h1> </div><div class='col'> <h1> TEST </h1> </div> </div> </container> ";
-    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Área de Trabalho </button> &gt; <button onclick='voltarInicio()'>Projetos</button> &gt; <button onclick='abrirPastaDois()'>Pasta Dois</button>";
+    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt; <button onclick='PastaProjetos()'>Projetos</button> &gt; <button onclick='abrirPastaDois()'>Pasta Dois</button>";
 }
 function abrirPastaTres(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='voltarInicio()'> <img src='img/home.png' width='100%'></button>"
+    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='PastaProjetos()'> <img src='img/home.png' width='100%'></button>"
 	document.getElementById("pastaPrincipal").innerHTML=" <div class='container'> <div class='row'> <div class='col'> <h1> TEST </h1> </div><div class='col'> <h1> PASTA 3 </h1> </div><div class='col'> <h1> TEST </h1> </div> </div> </container> ";
-    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Área de Trabalho </button> &gt; <button onclick='voltarInicio()'>Projetos</button> &gt; <button onclick='abrirPastaTres()'>Pasta Tres</button>";
+    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt; <button onclick='PastaProjetos()'>Projetos</button> &gt; <button onclick='abrirPastaTres()'>Pasta Tres</button>";
 }
 function abrirPastaQuatro(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='voltarInicio()'> <img src='img/home.png' width='100%'></button>"
+    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='PastaProjetos()'> <img src='img/home.png' width='100%'></button>"
 	document.getElementById("pastaPrincipal").innerHTML=" <div class='container'> <div class='row'> <div class='col'> <h1> TEST </h1> </div><div class='col'> <h1> PASTA 4 </h1> </div><div class='col'> <h1> TEST </h1> </div> </div> </container> ";
-    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Área de Trabalho </button> &gt; <button onclick='voltarInicio()'>Projetos</button> &gt; <button onclick='abrirPastaQuatro()'>Pasta Quatro</button>";
+    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt; <button onclick='PastaProjetos()'>Projetos</button> &gt; <button onclick='abrirPastaQuatro()'>Pasta Quatro</button>";
 }
 function abrirPastaCinco(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='voltarInicio()'> <img src='img/home.png' width='100%'></button>"
+    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='PastaProjetos()'> <img src='img/home.png' width='100%'></button>"
 	document.getElementById("pastaPrincipal").innerHTML=" <div class='container'> <div class='row'> <div class='col'> <h1> TEST </h1> </div><div class='col'> <h1> PASTA 5 </h1> </div><div class='col'> <h1> TEST </h1> </div> </div> </container> ";
-    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Área de Trabalho </button> &gt; <button onclick='voltarInicio()'>Projetos</button> &gt; <button onclick='abrirPastaCinco()'>Pasta Cinco</button>";
+    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt; <button onclick='PastaProjetos()'>Projetos</button> &gt; <button onclick='abrirPastaCinco()'>Pasta Cinco</button>";
 }
 function abrirPastaSeis(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='voltarInicio()'> <img src='img/home.png' width='100%'></button>"
+    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='PastaProjetos()'> <img src='img/home.png' width='100%'></button>"
 	document.getElementById("pastaPrincipal").innerHTML=" <div class='container'> <div class='row'> <div class='col'> <h1> TEST </h1> </div><div class='col'> <h1> PASTA 6 </h1> </div><div class='col'> <h1> TEST </h1> </div> </div> </container> ";
-    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Área de Trabalho </button> &gt; <button onclick='voltarInicio()'>Projetos</button> &gt; <button onclick='abrirPastaSeis()'>Pasta Seis</button>";
+    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt; <button onclick='PastaProjetos()'>Projetos</button> &gt; <button onclick='abrirPastaSeis()'>Pasta Seis</button>";
 }
-function voltarInicio(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='voltarInicio()'> <img src='img/home.png' width='100%'></button>"
-    document.getElementById("pastaPrincipal").innerHTML="<div clas='row'>"+
-                                                            "<div class='col-12'>"+
-                                                                "<br><button onclick='abrirPastaUm()'><img src='img/img.png' width='70px'><br> Paginas <br> WEB </button> &nbsp;"+
-                                                                //"<button onclick='abrirPastaDois()'><img src='img/img.png' width='70px'><br> Projeto <br> Dois</button>"+  
-                                                                //"<button onclick='abrirPastaTres()'><img src='img/img.png' width='70px'><br> Projeto <br> Tres</button>"+
-                                                                //"<button onclick='abrirPastaQuatro()'><img src='img/img.png' width='70px'><br> Projeto <br> Quatro</button>"+
-                                                                //"<button onclick='abrirPastaCinco()'><img src='img/img.png' width='70px'><br> Projeto <br> Cinco</button>"+
-                                                                //"<button onclick='abrirPastaSeis()'><img src='img/img.png' width='70px'><br> Projeto <br> Seis</button>"+
-                                                            "</div>"+
-                                                        "</div>" ;
-    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Área de Trabalho </button> &gt; <button onclick='voltarInicio()'>Projetos</button>";    
-}
-//
-// CV ABRIL
-function abrirPastaCvWEB(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirPastaCvWEB()'> <img src='img/home.png' width='100%'></button>"
-    
+// CONTEUDOS DA PASTA "PROJETOS".
+
+// PASTA NO DESKTOP COM NOME "CV WEB" ESSA FUNÇÃO ABRE UM MODAL COM AS INFORMAÇÕES DA PASTA.
+function abrirCvWeb(){
+    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>"
+
     document.getElementById("pastaPrincipal").innerHTML="<div class='row'>"+
                                                             "<div class='col-4'>"+
                                                                 " Nome"+
-                                                            "</div>"+ 
+                                                            "</div>"+
                                                             "<div class='col-4'>"+
                                                                 "| Data de Modificação"+
                                                             "</div>"+
@@ -82,7 +98,7 @@ function abrirPastaCvWEB(){
                                                         "<div class='row' style='text-align:left'>"+
                                                             "<div class='col-4'>"+
                                                                 "<img src='img/mini-pasta.png' width='25px'> css"+
-                                                            "</div>"+ 
+                                                            "</div>"+
                                                             "<div class='col-4'>"+
                                                                 " 26/04/2020 10:38pm"+
                                                             "</div>"+
@@ -97,7 +113,7 @@ function abrirPastaCvWEB(){
                                                          "<div class='row' style='text-align:left'>"+
                                                              "<div class='col-4'>"+
                                                                  "<img src='img/mini-pasta.png' width='25px'> js"+
-                                                             "</div>"+ 
+                                                             "</div>"+
                                                              "<div class='col-4'>"+
                                                                  " 26/04/2020 18:48pm"+
                                                              "</div>"+
@@ -112,7 +128,7 @@ function abrirPastaCvWEB(){
                                                         "<div class='row' style='text-align:left'>"+
                                                             "<div class='col-4'>"+
                                                                 "<img src='img/mini-pasta.png' width='25px'> img"+
-                                                            "</div>"+ 
+                                                            "</div>"+
                                                             "<div class='col-4'>"+
                                                                 " 27/04/2020 17:43pm"+
                                                             "</div>"+
@@ -127,7 +143,7 @@ function abrirPastaCvWEB(){
                                                          "<div class='row' style='text-align:left'>"+
                                                              "<div class='col-4'>"+
                                                                  "<img src='img/navegador.png' width='25px'> index.html"+
-                                                             "</div>"+ 
+                                                             "</div>"+
                                                              "<div class='col-4'>"+
                                                                  " 27/04/2020 17:43pm"+
                                                              "</div>"+
@@ -138,17 +154,18 @@ function abrirPastaCvWEB(){
                                                          "</button>"
                                                          //pasta index//
 
-    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Área de Trabalho </button> &gt; <button onclick='abrirPastaCvWEB()'>Cv Abril</button>";    
-    
-    document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaCvWEB()'> <img src='img/mini-pasta.png' width='22px'>Cv Abril</button>"
+    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt;  <button onclick='abrirCvWeb()'>Cv Abril</button>";
+
+    document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' data-dismiss='modal' aria-label='Close'> <img src='img/mini-pasta.png' width='22px'>Desktop</button>"+
+                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirCvWeb()'>    <img src='img/mini-pasta.png' width='22px'>Cv Abril</button>"
 }
 function abrirPastaCss(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirPastaCvWEB()'> <img src='img/home.png' width='100%'></button>"
-    
+    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>"
+
     document.getElementById("pastaPrincipal").innerHTML="<div class='row'>"+
                                                             "<div class='col-4'>"+
                                                                 " Nome"+
-                                                            "</div>"+ 
+                                                            "</div>"+
                                                             "<div class='col-4'>"+
                                                                 "| Data de Modificação"+
                                                             "</div>"+
@@ -161,7 +178,7 @@ function abrirPastaCss(){
                                                         "<div class='row' style='text-align:left'>"+
                                                             "<div class='col-4'>"+
                                                                 "<img src='img/css.png' style='margin-top:-5px' width='25px'> style.css"+
-                                                            "</div>"+ 
+                                                            "</div>"+
                                                             "<div class='col-4'>"+
                                                                 " 26/04/2020 10:38pm"+
                                                             "</div>"+
@@ -172,18 +189,19 @@ function abrirPastaCss(){
                                                         "</button>"
                                                         //pasta css//
 
-    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Área de Trabalho </button> &gt; <button onclick='abrirPastaCvWEB()'>Cv Abril</button> > <button onclick='abrirPastaCss()'>css</button>";    
-    
-    document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaCvWEB()'> <img src='img/mini-pasta.png' width='22px'>Cv Abril</button>"+
+    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt; <button onclick='abrirCvWeb()'>Cv Abril</button> > <button onclick='abrirPastaCss()'>css</button>";
+
+    document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' data-dismiss='modal' aria-label='Close'> <img src='img/mini-pasta.png' width='22px'>Desktop</button>"+
+                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirCvWeb()'>    <img src='img/mini-pasta.png' width='22px'>Cv Abril</button>"+
                                                              "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaCss()'>    <img src='img/mini-pasta.png' width='22px'>css</button>"
 }
 function abrirPastaJs(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirPastaCvWEB()'> <img src='img/home.png' width='100%'></button>"
-    
+    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>"
+
     document.getElementById("pastaPrincipal").innerHTML="<div class='row'>"+
                                                             "<div class='col-4'>"+
                                                                 " Nome"+
-                                                            "</div>"+ 
+                                                            "</div>"+
                                                             "<div class='col-4'>"+
                                                                 "| Data de Modificação"+
                                                             "</div>"+
@@ -196,7 +214,7 @@ function abrirPastaJs(){
                                                         "<div class='row' style='text-align:left'>"+
                                                             "<div class='col-4'>"+
                                                                 "<img src='img/js.png' style='margin-top:-5px' width='25px'> JavaS.js"+
-                                                            "</div>"+ 
+                                                            "</div>"+
                                                             "<div class='col-4'>"+
                                                                 " 26/04/2020 10:38pm"+
                                                             "</div>"+
@@ -207,55 +225,50 @@ function abrirPastaJs(){
                                                         "</button>"
                                                         //pasta css//
 
-    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Área de Trabalho </button> &gt; <button onclick='abrirPastaCvWEB()'>Cv Abril</button> > <button onclick='abrirPastaJs()'>js</button>";    
-    
-    document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaCvWEB()'> <img src='img/mini-pasta.png' width='22px'>Cv Abril</button>"+
-                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaJs()'>    <img src='img/mini-pasta.png' width='22px'> js</button>"
+    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt; <button onclick='abrirCvWeb()'>Cv Abril</button> > <button onclick='abrirPastaJs()'>js</button>";
+
+    document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' data-dismiss='modal' aria-label='Close'> <img src='img/mini-pasta.png' width='22px'>Desktop</button>"+
+                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirCvWeb()'>    <img src='img/mini-pasta.png' width='22px'>Cv Abril</button>"+
+                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaJs()'>    <img src='img/mini-pasta.png' width='22px'>js</button>"
 }
 function abrirPastaImg(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirPastaCvWEB()'> <img src='img/home.png' width='100%'></button>"
+    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>"
 
-    document.getElementById("pastaPrincipal").innerHTML=   
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:20px;margin-top:10px'><img src='img/3item.png' style='width:50px'> <br>3item </button>"+           
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/interface.png' style='width:50px'> <br>barra </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/interface.png' style='width:50px'> <br>bg </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/interface.png' style='width:50px'> <br>bgpc </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/css.png' style='width:50px'> <br>css </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/cv.png' style='width:50px'> <br>cv  </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/enviar.png' style='width:50px'> <br> enviar </button>"+ 
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:13px;margin-top:10px'><img src='img/facebook.png' style='width:50px'> <br> face </button>"+           
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/fullscreen.png' style='width:50px'> <br> full </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/guy.png' style='width:50px'> <br> guy </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/home.png' style='width:50px'> <br> home </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/icons8-gif-80.png' style='width:50px'> <br> icons </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/img.png' style='width:50px'> <br> img </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/imp.png' style='width:50px'> <br> imp </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:13px;margin-top:10px'><img src='img/interface.png' style='width:50px'> <br> iniciar </button>"+           
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/text.png' style='width:50px'> <br> text </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/js.png' style='width:50px'> <br> js </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/print.png' style='width:50px'> <br> print </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/mini-pasta.png' style='width:50px'> <br> mpasta </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/outbutton.png' style='width:50px'> <br> outbtn </button>"+ 
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/pasta.png' style='width:50px'> <br> pasta </button>"+           
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:13px;margin-top:10px'><img src='img/interface.png' style='width:50px'> <br> memoria </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/interface.png' style='width:50px'> <br> interface </button>"+  
-                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/icons8-gif-80.png' style='width:50px'> <br> loading </button>"+  
+    document.getElementById("pastaPrincipal").innerHTML=
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:20px;margin-top:10px'><img src='img/3item.png' style='width:50px'> <br>3item </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/interface.png' style='width:50px'> <br>barra </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/interface.png' style='width:50px'> <br>bg </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/interface.png' style='width:50px'> <br>bgpc </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/css.png' style='width:50px'> <br>css </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/cv.png' style='width:50px'> <br>cv  </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/enviar.png' style='width:50px'> <br> enviar </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:13px;margin-top:10px'><img src='img/facebook.png' style='width:50px'> <br> face </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/fullscreen.png' style='width:50px'> <br> full </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/guy.png' style='width:50px'> <br> guy </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/home.png' style='width:50px'> <br> home </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/icons8-gif-80.png' style='width:50px'> <br> icons </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/img.png' style='width:50px'> <br> img </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/imp.png' style='width:50px'> <br> imp </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:13px;margin-top:10px'><img src='img/interface.png' style='width:50px'> <br> iniciar </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/text.png' style='width:50px'> <br> text </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/js.png' style='width:50px'> <br> js </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/print.png' style='width:50px'> <br> print </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/mini-pasta.png' style='width:50px'> <br> mpasta </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/outbutton.png' style='width:50px'> <br> outbtn </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/pasta.png' style='width:50px'> <br> pasta </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:13px;margin-top:10px'><img src='img/interface.png' style='width:50px'> <br> memoria </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/interface.png' style='width:50px'> <br> interface </button>"+
+                                                            "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/icons8-gif-80.png' style='width:50px'> <br> loading </button>"+
                                                         "</div>"
 
-    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Área de Trabalho </button> &gt; <button onclick='abrirPastaCvWEB()'>Cv Abril</button> > <button onclick='abrirPastaImg()'>img</button>";    
-    
-    document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaCvWEB()'> <img src='img/mini-pasta.png' width='22px'>Cv Abril</button>"+
-                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaImg()'>    <img src='img/mini-pasta.png' width='22px'> img</button>"
+    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt; <button onclick='abrirCvWeb()'>Cv Abril</button> > <button onclick='abrirPastaImg()'>img</button>";
+
+    document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' data-dismiss='modal' aria-label='Close'> <img src='img/mini-pasta.png' width='22px'>Desktop</button>"+
+                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirCvWeb()'>    <img src='img/mini-pasta.png' width='22px'>Cv Abril</button>"+
+                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaImg()'>    <img src='img/mini-pasta.png' width='22px'>img</button>"
+
 }
-//
-function pastasLateralProjetos(){
-    document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaUm()'> <img src='img/mini-pasta.png' width='22px'>Paginas WEB</button>";//+
-                                                            //"<button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaDois()'> <img src='img/mini-pasta.png' width='22px'>pasta dois</button>"+
-                                                            //"<button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaTres()'><img src='img/mini-pasta.png' width='22px'>pasta tres</button>"+
-                                                            //"<button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaQuatro()'><img src='img/mini-pasta.png' width='22px'>pasta quatro</button>"+
-                                                            //"<button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaCinco()'><img src='img/mini-pasta.png' width='22px'>pasta cinco</button>"+
-                                                            //"<button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaSeis()'><img src='img/mini-pasta.png' width='22px'>pasta seis</button>"
-}
+// PASTA NO DESKTOP COM NOME "CV WEB" ESSA FUNÇÃO ABRE UM MODAL COM AS INFORMAÇÕES DA PASTA.
 function desejaSair(){
     document.getElementById("conteudo-erro").innerHTML= "<div class='col-12'><br>"+
                                                             "<center><p> <strong style='color: grey;'> Confirmação de saida </strong> </p>  <hr>"+
@@ -420,4 +433,3 @@ function ButtonFull() {
     const loader = document.querySelector(".loader");
     loader.className += " hidden"; // class "loader hidden"
 });
-
