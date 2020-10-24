@@ -38,7 +38,7 @@
                           <div id="data-f"></div>
                       </div>
                       <div class="col-4">
-                        <button type="button" onclick="ButtonFull()" style="padding-top: 30%;">
+                        <button type="button" onclick="ButtonFull()" style="margin-top: 30%;">
                           <img class="img" src="img/fullscreen.png" width="50px" height="50px">
                           Fullscreen
                         </button>
@@ -47,30 +47,10 @@
               </div>
               <div class="row" id="conteudo-central">
                       <div class="col-3" >
-                        <button onclick="pSites();" id="pastas"  type="button" data-toggle="modal" data-target="#exampleModalCenter" width="100%">
-                          <img class="img" src="img/3item.png" width="50px" height="50px">
+                        <button onclick="pContatos();" id="pastas"  type="button" data-toggle="modal" data-target="#exampleModalCenter" width="100%">
+                          <img class="img" src="img/contatos-380x238.png" width="50px" height="50px">
                         </button>
-                             Sites
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                          <div class="container">
-                            <div class="row" id="cabecalho">
-                              <div class="col-4" style="text-align: left;">
-                                  <div id="horas2"></div>
-                              </div>
-                              <div class="col-4" style="text-align: center;">
-                                  Clayton
-                              </div>
-                              <div class="col-4" style="text-align: right;">
-                                  <img src="img/test.png" width="92px">
-                              </div>
-                          </div>
-                        </div>
-                          <div class="modal-dialog modal-dialog-centered" role="document">
-                            <div class="modal-content" id="pasta-projetos">
-
-                            </div>
-                          </div>
-                        </div>
+                        Contatos
                       </div>
                       <div class="col-3">
 
@@ -79,17 +59,35 @@
 
                       </div>
                       <div class="col-3">
-                        <center>
-                          <button onclick="cProgramas();" data-toggle="modal" data-target="#exampleModalCenter" width="100%">
-                            <img class="img" src="img/pasta.png" width="50px" height="50px">
-                          </button>
-                         Programas em C
-                        </center>
+
                       </div>
               </div>
               <div class="row" id="conteudo-baixo">
                   <div class="col-4">
-                      <button><img src="img/icon-test.png" width="60px"></button>
+                    <button onclick="pSites();" id="pastas"  type="button" data-toggle="modal" data-target="#exampleModalCenter" width="100%">
+                      <img class="img" src="img/3item.png" width="50px" height="50px">
+                    </button>
+                     <br> Sites
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="container">
+                        <div class="row" id="cabecalho">
+                          <div class="col-4" style="text-align: left;">
+                              <div id="horas2"></div>
+                          </div>
+                          <div class="col-4" style="text-align: center;">
+                              Clayton
+                          </div>
+                          <div class="col-4" style="text-align: right;">
+                              <img src="img/test.png" width="92px">
+                          </div>
+                      </div>
+                    </div>
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content" id="pasta-projetos">
+
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div class="col-4">
                     <button type="button" class="botao" data-toggle="modal" data-target="#exampleModalLong">
@@ -203,7 +201,12 @@
                       </div>
                 </div>
                   <div class="col-4">
-                      <button><img src="img/icon-test.png" width="60px"></button>
+                    <center>
+                      <button onclick="cProgramas();" data-toggle="modal" data-target="#exampleModalCenter" width="100%">
+                        <img class="img" src="img/pasta.png" width="50px" height="50px">
+                      </button>
+                     Programas <br> em C
+                    </center>
                   </div>
               </div>
           </div>

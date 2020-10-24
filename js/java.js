@@ -348,6 +348,31 @@ function pSites() {
                                                 "</div>"+
                                               "</div>";
 }
+function pContatos() {
+  document.getElementById('pasta-projetos').innerHTML="<div class='modal-body'>"+
+                                                        "<div class='projetos'>"+
+                                                          "<div class='row' style='padding-top: 65px;'>"+
+                                                            "<div class='col-4'>"+
+                                                              "<a href='https://www.facebook.com/ClaytonnSr/' target='_blank'><button><img class='img' src='img/facebook.png' width='70px'></button></a>"+
+                                                              "Facebook"+
+                                                            "</div>"+
+                                                            "<div class='col-4'>"+
+                                                              "<a href='mailto:claytonsilvar@hotmail.com' target='_blank'><button><img class='img' src='img/enviar.png' width='70px'></button></a>"+
+                                                              "Email"+
+                                                            "</div>"+
+                                                            "<div class='col-4'>"+
+                                                              "<a href='https://github.com/srclayton' target='_blank'><button><img class='img' src='img/3842828341530103314-128.png' width='70px'></button></a>"+
+                                                              "GitHub"+
+                                                            "</div>"+
+                                                            "<div class='col-4' style='padding-top: 15px;'>"+
+                                                              "<a href='https://api.whatsapp.com/send?phone=5541984722329' target='_blank'><button><img class='img' src='img/whatsapp.png' width='70px'></button></a>"+
+                                                              "Whatsapp"+
+                                                            "</div>"+
+                                                          "</div>"+
+                                                        "</div>"+
+                                                      "</div>";
+
+}
 function myFunction() {
     alert("Função de Imprimir em desenvolvimento, caso esta ferramente não funcione corretamente, experimente baixar o arquivo!");
   }
