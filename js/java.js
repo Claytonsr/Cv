@@ -29,7 +29,7 @@ function abrirPastaUm(){
     document.getElementById("pastaPrincipal").innerHTML=" <div class='container'>"+
                                                             "<div class='row'>"+
                                                                 "<div class='col-2'>"+
-                                                                    "<br> <a href='loja/index.html' target='_blank'><button><img src='loja/img/icone.jpg' width='80px'height='80px'><p>CTN Market</p></button></a>" +
+                                                                    "<br> <a href='https://srclayton.github.io/Loja-Online/' target='_blank'><button><img src='loja/img/icone.jpg' width='80px'height='80px'><p>CTN Market</p></button></a>" +
                                                                 "</div>"+
                                                                 "<div class='col-2'>"+
                                                                     "<br> <a href='americanas/index.html' target='_blank'><button><img src='americanas/media/page_1.jpg' width='80px'height='80px'><p>Americanas</p></button></a>"+
@@ -41,7 +41,7 @@ function abrirPastaUm(){
                                                                     "<br> <a href='rainbow six/index.html' target='_blank'><button><img src='rainbow six/img/verso.jpg' width='80px' height='80px'><p>Jogo da memoria</p></button></a>" +
                                                                 "</div>"+
                                                                 "<div class='col-2'>"+
-                                                                    "<br> <a href='Kimi-Mate/index.html' target='_blank'><button><img src='Kimi-Mate/img/kimi3.png' width='80px' height='80px'><p>Kimi Store</p></button></a>" +
+                                                                    "<br> <a href='https://srclayton.github.io/Kimi-Store/' target='_blank'><button><img src='Kimi-Mate/img/kimi3.png' width='80px' height='80px'><p>Kimi Store</p></button></a>" +
                                                                 "</div>"+
                                                             "</div>"+
                                                         "</div>";
@@ -329,7 +329,7 @@ function pSites() {
                                                 "<div class='projetos'>"+
                                                   "<div class='row' style='padding-top: 65px;'>"+
                                                     "<div class='col-4'>"+
-                                                      "<a href='loja/index.html' target='_blank'><button><img class='img' src='loja/img/icone.jpg' width='70px'></button></a>"+
+                                                      "<a href='https://srclayton.github.io/Loja-Online/' target='_blank'><button><img class='img' src='loja/img/icone.jpg' width='70px'></button></a>"+
                                                       "Market"+
                                                     "</div>"+
                                                     "<div class='col-4'>"+
@@ -341,7 +341,7 @@ function pSites() {
                                                       "Americanas"+
                                                     "</div>"+
                                                     "<div class='col-4' style='padding-top: 15px;'>"+
-                                                      "<a href='Kimi-Mate/index.html' target='_blank'><button><img class='img' src='Kimi-Mate/img/kimi3.png' width='70px'></button></a>"+
+                                                      "<a href='https://srclayton.github.io/Kimi-Store/' target='_blank'><button><img class='img' src='Kimi-Mate/img/kimi3.png' width='70px'></button></a>"+
                                                       "Kimi Store"+
                                                     "</div>"+
                                                   "</div>"+
