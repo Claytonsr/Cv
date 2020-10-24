@@ -312,6 +312,42 @@ function erroReprodizor(){
 }
 
 //JS MOBILE
+function cProgramas() {
+  document.getElementById('pasta-projetos').innerHTML="<div class='modal-body'>"+
+                                                            "<div class='projetos'>"+
+                                                              "<div class='row' style='padding-top: 65px;'>"+
+                                                                "<div class='col-4'>"+
+                                                                  "<a href='https://github.com/srclayton/C-Programming/tree/master/credit%20card%20number%20validator' target='_blank'><button><img class='img' src='img/github.png' width='70px'></button></a>"+
+                                                                  "card.c"+
+                                                                "</div>"+
+                                                              "</div>"+
+                                                            "</div>"+
+                                                          "</div>";
+}
+function pSites() {
+  document.getElementById('pasta-projetos').innerHTML= "<div class='modal-body'>"+
+                                                "<div class='projetos'>"+
+                                                  "<div class='row' style='padding-top: 65px;'>"+
+                                                    "<div class='col-4'>"+
+                                                      "<a href='loja/index.html' target='_blank'><button><img class='img' src='loja/img/icone.jpg' width='70px'></button></a>"+
+                                                      "Market"+
+                                                    "</div>"+
+                                                    "<div class='col-4'>"+
+                                                      "<a href='G1.com/index.html' target='_blank'><button onclick='Alerta()'><img class='img' src='G1.com/media/G1.png' width='70px'></button></a>"+
+                                                      "G1.com"+
+                                                    "</div>"+
+                                                    "<div class='col-4'>"+
+                                                      "<a href='americanas/index.html' target='_blank'><button onclick='Alerta()'><img class='img' src='americanas/media/page_1.jpg' width='70px'></button></a>"+
+                                                      "Americanas"+
+                                                    "</div>"+
+                                                    "<div class='col-4' style='padding-top: 15px;'>"+
+                                                      "<a href='Kimi-Mate/index.html' target='_blank'><button><img class='img' src='Kimi-Mate/img/kimi3.png' width='70px'></button></a>"+
+                                                      "Kimi Store"+
+                                                    "</div>"+
+                                                  "</div>"+
+                                                "</div>"+
+                                              "</div>";
+}
 function myFunction() {
     alert("Função de Imprimir em desenvolvimento, caso esta ferramente não funcione corretamente, experimente baixar o arquivo!");
   }
