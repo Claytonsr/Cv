@@ -4,7 +4,7 @@ function PastaProjetos(){
   document.getElementById("pastaPrincipal").innerHTML="<div clas='row'>"+
   "<div class='col-12'>"+
   "<br><button onclick='abrirPastaUm()'><img src='img/img.png' width='70px'><br> Paginas <br> WEB </button> &nbsp;"+
-  //"<button onclick='abrirPastaDois()'><img src='img/img.png' width='70px'><br> Projeto <br> Dois</button>"+ 
+  "<button onclick='abrirPastaDois()'><img src='img/img.png' width='70px'><br> Programação <br> em C</button>"+ 
   //"<button onclick='abrirPastaTres()'><img src='img/img.png' width='70px'><br> Projeto <br> Tres</button>"+
   //"<button onclick='abrirPastaQuatro()'><img src='img/img.png' width='70px'><br> Projeto <br> Quatro</button>"+
   //"<button onclick='abrirPastaCinco()'><img src='img/img.png' width='70px'><br> Projeto <br> Cinco</button>"+
@@ -51,11 +51,22 @@ function abrirPastaUm(){
                                                              "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaUm()'>    <img src='img/mini-pasta.png' width='22px'>Paginas WEB</button>";
 }
 // PASTA COM NOME DE "PAGINAS WEB".
+// PASTA COM NOME DE "PROGRAMAÇÃO EM C"
 function abrirPastaDois(){
     document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='PastaProjetos()'> <img src='img/home.png' width='100%'></button>"
-	document.getElementById("pastaPrincipal").innerHTML=" <div class='container'> <div class='row'> <div class='col'> <h1> TEST </h1> </div><div class='col'> <h1> PASTA 2 </h1> </div><div class='col'> <h1> TEST </h1> </div> </div> </container> ";
-    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt; <button onclick='PastaProjetos()'>Projetos</button> &gt; <button onclick='abrirPastaDois()'>Pasta Dois</button>";
+	  document.getElementById("pastaPrincipal").innerHTML="<div class='container'>"+
+                                                            "<div class='row'>"+
+                                                                "<div class='col-2'>"+
+                                                                    "<br> <a href='https://github.com/srclayton/C-Programming/tree/master/credit%20card%20number%20validator' target='_blank'><button><img src='img/github.png' width='80px'height='80px'><p>card.c</p></button></a>" +
+                                                                "</div>"+
+                                                            "</div>"+
+                                                        "</div>";
+    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt; <button onclick='PastaProjetos()'>Projetos</button> &gt; <button onclick='abrirPastaDois()'>Programação em C</button>";
+    document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' data-dismiss='modal' aria-label='Close'> <img src='img/mini-pasta.png' width='22px'>Desktop</button>"+
+                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='PastaProjetos()'>    <img src='img/mini-pasta.png' width='22px'>Projetos</button>"+
+                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaDois()'>    <img src='img/mini-pasta.png' width='22px'>Programação em...</button>";
 }
+// PASTA COM NOME DE "PROGRAMAÇÃO EM C"
 function abrirPastaTres(){
     document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='PastaProjetos()'> <img src='img/home.png' width='100%'></button>"
 	document.getElementById("pastaPrincipal").innerHTML=" <div class='container'> <div class='row'> <div class='col'> <h1> TEST </h1> </div><div class='col'> <h1> PASTA 3 </h1> </div><div class='col'> <h1> TEST </h1> </div> </div> </container> ";
