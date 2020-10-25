@@ -1,0 +1,43 @@
+.modal-content{background-color: #90b4ce;}
+.left-page{
+  text-align: center;
+  color: white;
+}
+.right-page{
+  background-color: #fffffe;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: right;
+}
+.profile-img{
+  text-align: center;
+  width: 150px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #F1E3D3;
+}
+.topic{
+  background-color: #F1E3D3;
+  width: 90%;
+  height: auto;
+  color: black;
+  text-align: left;
+}
+.leftTo{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.rightTo{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-left: 11%;
+}
+.text{
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.tleft{text-align: left;}
+.text-secondary{font-size: 13px}
+.tright{text-align: right;}
+button{background-color: rgb(0, 0, 0, 0);border-color: rgb(0, 0, 0, 0);color: white;}
