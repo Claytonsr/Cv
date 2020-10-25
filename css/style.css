@@ -65,17 +65,6 @@
         margin-bottom: 50px;
         margin-left: 50px;
     }
-    #pagina-curriculo{
-        text-align: justify;
-        font-size: 13px;
-        background-color: rgba(255, 105, 180, 0);
-    }
-    .titulos-curriculo{
-        color:grey;
-        font-family: Georgia;
-        font-size: 16px;
-        text-align: left;
-    }
     #func-imp-download{text-align: center;}
     .button-curr:hover{background-color: rgb(226, 226, 226);}
     /* CSS MODAL */
@@ -159,19 +148,6 @@
     #hora{font-size: 70px;text-align: left;}
     #data-f{font-size: 22px;margin-top: -20px; margin-left: 15px;}
     .modal-body,.modal-title{color: black;}
-    /* CSS MODAL CURRICULUM */
-    #pagina-curriculo{
-        text-align: justify;
-        font-size: 13px;
-        background-color: rgba(255, 105, 180, 0);
-    }
-    .titulos-curriculo{
-        color:grey;
-        font-family: Georgia;
-        font-size: 16px;
-        text-align: left;
-    }
-    /* CSS MODAL CURRICULUM */
     .botao{color: blanchedalmond;}
     /* CSS MODAL CURRICULUM */
     #pasta-projetos{background-color: rgba(255, 255, 255, 0.109);}
