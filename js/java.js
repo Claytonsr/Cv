@@ -170,86 +170,6 @@ function abrirCvWeb(){
     document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' data-dismiss='modal' aria-label='Close'> <img src='img/mini-pasta.png' width='22px'>Desktop</button>"+
                                                              "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirCvWeb()'>    <img src='img/mini-pasta.png' width='22px'>Cv Abril</button>"
 }
-function abrirContatos(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>"
-
-    document.getElementById("pastaPrincipal").innerHTML="<div class='row'>"+
-                                                            "<div class='col-4'>"+
-                                                                " Nome"+
-                                                            "</div>"+
-                                                            "<div class='col-4'>"+
-                                                                "| Data de Modificação"+
-                                                            "</div>"+
-                                                            "<div class='col-4'>"+
-                                                                "| Tipo"+
-                                                            "</div>"+
-                                                        "</div>"+
-                                                        //GITHUB//
-                                                        "<a href='https://github.com/srclayton' target='_blank'> <button style='width:98%; margin-top: 5px; margin-left: 5px '>"+
-                                                        "<div class='row' style='text-align:left'>"+
-                                                            "<div class='col-4'>"+
-                                                                "<img src='img/github.png' width='25px'> GitHub"+
-                                                            "</div>"+
-                                                            "<div class='col-4'>"+
-                                                                "25/10/2020 14:09pm"+
-                                                            "</div>"+
-                                                            "<div class='col-4'>"+
-                                                                "  HTML Document"+
-                                                            "</div>"+
-                                                        "</div>"+
-                                                        "</button></a>"+
-                                                        //GITHUB//
-                                                         //FACEBOOK//
-                                                         "<a href='https://www.facebook.com/ClaytonnSr/' target='_blank' ><button style='width:98%; margin-top: 5px; margin-left: 5px '>"+
-                                                         "<div class='row' style='text-align:left'>"+
-                                                             "<div class='col-4'>"+
-                                                                 "<img src='img/facebook.png' width='25px'> Facebook"+
-                                                             "</div>"+
-                                                             "<div class='col-4'>"+
-                                                                 " 25/10/2020 14:12pm"+
-                                                             "</div>"+
-                                                             "<div class='col-4'>"+
-                                                                 "  HTML Document"+
-                                                             "</div>"+
-                                                         "</div>"+
-                                                         "</button></a>"+
-                                                         //FACEBOOK//
-                                                          //EMAIL//
-                                                        "<a href='mailto:claytonsilvar@hotmail.com'><button style='width:98%; margin-top: 5px; margin-left: 5px '>"+
-                                                        "<div class='row' style='text-align:left'>"+
-                                                            "<div class='col-4'>"+
-                                                                "<img src='img/enviar.png' width='25px'> Email"+
-                                                            "</div>"+
-                                                            "<div class='col-4'>"+
-                                                                " 27/04/2020 17:43pm"+
-                                                            "</div>"+
-                                                            "<div class='col-4'>"+
-                                                                "  Email"+
-                                                            "</div>"+
-                                                        "</div>"+
-                                                        "</button></a>"+
-                                                        //EMAIL//
-                                                         //WHATSAPP//
-                                                         "<a href='https://api.whatsapp.com/send?phone=5541984722329' target='_blank'><button style='width:98%; margin-top: 5px; margin-left: 5px '>"+
-                                                         "<div class='row' style='text-align:left'>"+
-                                                             "<div class='col-4'>"+
-                                                                 "<img src='img/whatsapp.png' width='25px'> Whatsapp"+
-                                                             "</div>"+
-                                                             "<div class='col-4'>"+
-                                                                 " 25/10/2020 17:43pm"+
-                                                             "</div>"+
-                                                             "<div class='col-4'>"+
-                                                                 "  HTML Document"+
-                                                             "</div>"+
-                                                         "</div>"+
-                                                         "</button></a>"
-                                                         //WHATSAPP//
-
-    document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt;  <button onclick='abrirContatos()'>Contatos</button>";
-
-    document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' data-dismiss='modal' aria-label='Close'> <img src='img/mini-pasta.png' width='22px'>Desktop</button>"+
-                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirContatos()'>    <img src='img/mini-pasta.png' width='22px'>Contatos</button>"
-}
 function abrirPastaCss(){
     document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>"
 
@@ -360,6 +280,86 @@ function abrirPastaImg(){
 
 }
 // PASTA NO DESKTOP COM NOME "CV WEB" ESSA FUNÇÃO ABRE UM MODAL COM AS INFORMAÇÕES DA PASTA.
+function abrirContatos(){
+  document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>"
+
+  document.getElementById("pastaPrincipal").innerHTML="<div class='row'>"+
+  "<div class='col-4'>"+
+  " Nome"+
+  "</div>"+
+  "<div class='col-4'>"+
+  "| Data de Modificação"+
+  "</div>"+
+  "<div class='col-4'>"+
+  "| Tipo"+
+  "</div>"+
+  "</div>"+
+  //GITHUB//
+  "<a href='https://github.com/srclayton' target='_blank'> <button style='width:98%; margin-top: 5px; margin-left: 5px '>"+
+  "<div class='row' style='text-align:left'>"+
+  "<div class='col-4'>"+
+  "<img src='img/github.png' width='25px'> GitHub"+
+  "</div>"+
+  "<div class='col-4'>"+
+  "25/10/2020 14:09pm"+
+  "</div>"+
+  "<div class='col-4'>"+
+  "  HTML Document"+
+  "</div>"+
+  "</div>"+
+  "</button></a>"+
+  //GITHUB//
+  //FACEBOOK//
+  "<a href='https://www.facebook.com/ClaytonnSr/' target='_blank' ><button style='width:98%; margin-top: 5px; margin-left: 5px '>"+
+  "<div class='row' style='text-align:left'>"+
+  "<div class='col-4'>"+
+  "<img src='img/facebook.png' width='25px'> Facebook"+
+  "</div>"+
+  "<div class='col-4'>"+
+  " 25/10/2020 14:12pm"+
+  "</div>"+
+  "<div class='col-4'>"+
+  "  HTML Document"+
+  "</div>"+
+  "</div>"+
+  "</button></a>"+
+  //FACEBOOK//
+  //EMAIL//
+  "<a href='mailto:claytonsilvar@hotmail.com'><button style='width:98%; margin-top: 5px; margin-left: 5px '>"+
+  "<div class='row' style='text-align:left'>"+
+  "<div class='col-4'>"+
+  "<img src='img/enviar.png' width='25px'> Email"+
+  "</div>"+
+  "<div class='col-4'>"+
+  " 27/04/2020 17:43pm"+
+  "</div>"+
+  "<div class='col-4'>"+
+  "  Email"+
+  "</div>"+
+  "</div>"+
+  "</button></a>"+
+  //EMAIL//
+  //WHATSAPP//
+  "<a href='https://api.whatsapp.com/send?phone=5541984722329' target='_blank'><button style='width:98%; margin-top: 5px; margin-left: 5px '>"+
+  "<div class='row' style='text-align:left'>"+
+  "<div class='col-4'>"+
+  "<img src='img/whatsapp.png' width='25px'> Whatsapp"+
+  "</div>"+
+  "<div class='col-4'>"+
+  " 25/10/2020 17:43pm"+
+  "</div>"+
+  "<div class='col-4'>"+
+  "  HTML Document"+
+  "</div>"+
+  "</div>"+
+  "</button></a>"
+  //WHATSAPP//
+
+  document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt;  <button onclick='abrirContatos()'>Contatos</button>";
+
+  document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' data-dismiss='modal' aria-label='Close'> <img src='img/mini-pasta.png' width='22px'>Desktop</button>"+
+  "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirContatos()'>    <img src='img/mini-pasta.png' width='22px'>Contatos</button>"
+}
 function desejaSair(){
     document.getElementById("conteudo-erro").innerHTML= "<div class='col-12'><br>"+
                                                             "<center><p> <strong style='color: grey;'> Confirmação de saida </strong> </p>  <hr>"+
