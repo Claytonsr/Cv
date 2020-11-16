@@ -1,3 +1,4 @@
+h1{font-size: 350%}
 .bg-curriculo{background-color: #90b4ce; border-radius: 4px;}
 .left-page{
   text-align: center;
@@ -45,7 +46,14 @@
 .tright{text-align: right;}
 button{background-color: rgb(0, 0, 0, 0);border-color: rgb(0, 0, 0, 0);color: white;}
 .remove-hover:hover,.close:hover{background-color: rgb(0, 0, 0, 0);}
-
+.s_name{text-align: left;
+  font-family:Impact;
+  margin-top: -20px;
+}
+.da{text-align: right;
+  margin-top: -30px;
+  font-family:Impact;
+}
 
 /*FORA DO MODAL*/
 html,.test{background-color: #1b1d21;}
