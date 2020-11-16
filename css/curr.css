@@ -54,6 +54,6 @@ button{background-color: rgb(0, 0, 0, 0);border-color: rgb(0, 0, 0, 0);color: wh
   font-family:Impact;
 }
 
-h1{font-size: 350%}
+.h1{font-size: 350%}
 /*FORA DO MODAL*/
 html,.test{background-color: #1b1d21;}
