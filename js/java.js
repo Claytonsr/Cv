@@ -1,6 +1,6 @@
 // PASTA NO DESKTOP COM NOME DE "PROJETOS" CONTÉM PASTAS COM TODOS OS PROJETOS JÁ FEITO POR MIM.
 function PastaProjetos(){
-  document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='PastaProjetos()'> <img src='img/home.png' width='100%'></button>"
+  document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='PastaProjetos()'> <img src='img/home.png' width='100%'></button>";
   document.getElementById("pastaPrincipal").innerHTML="<div clas='row'>"+
   "<div class='col-12'>"+
   "<br><button onclick='abrirPastaUm()'><img src='img/img.png' width='70px'><br> Paginas <br> WEB </button> &nbsp;"+
@@ -25,7 +25,7 @@ function PastaProjetos(){
 // CONTEUDOS DA PASTA "PROJETOS".
 // PASTA COM NOME DE "PAGINAS WEB".
 function abrirPastaUm(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='PastaProjetos()'> <img src='img/home.png' width='100%'></button>"
+    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='PastaProjetos()'> <img src='img/home.png' width='100%'></button>";
     document.getElementById("pastaPrincipal").innerHTML=" <div class='container'>"+
                                                             "<div class='row'>"+
                                                                 "<div class='col-2'>"+
@@ -53,7 +53,7 @@ function abrirPastaUm(){
 // PASTA COM NOME DE "PAGINAS WEB".
 // PASTA COM NOME DE "PROGRAMAÇÃO EM C"
 function abrirPastaDois(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='PastaProjetos()'> <img src='img/home.png' width='100%'></button>"
+    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='PastaProjetos()'> <img src='img/home.png' width='100%'></button>";
 	  document.getElementById("pastaPrincipal").innerHTML="<div class='container'>"+
                                                             "<div class='row'>"+
                                                                         "<div class='col-4'>"+
@@ -235,7 +235,7 @@ function abrirPastaCredtCard(){
 
 // PASTA NO DESKTOP COM NOME "CV WEB" ESSA FUNÇÃO ABRE UM MODAL COM AS INFORMAÇÕES DA PASTA.
 function abrirCvWeb(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>"
+    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>";
 
     document.getElementById("pastaPrincipal").innerHTML="<div class='row'>"+
                                                             "<div class='col-4'>"+
@@ -306,16 +306,16 @@ function abrirCvWeb(){
                                                                  "  Pasta de Arquivos"+
                                                              "</div>"+
                                                          "</div>"+
-                                                         "</button>"
+                                                         "</button>";
                                                          //pasta index//
 
     document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt;  <button onclick='abrirCvWeb()'>Cv Abril</button>";
 
     document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' data-dismiss='modal' aria-label='Close'> <img src='img/mini-pasta.png' width='22px'>Desktop</button>"+
-                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirCvWeb()'>    <img src='img/mini-pasta.png' width='22px'>Cv Abril</button>"
+                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirCvWeb()'>    <img src='img/mini-pasta.png' width='22px'>Cv Abril</button>";
 }
 function abrirPastaCss(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>"
+    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>";
 
     document.getElementById("pastaPrincipal").innerHTML="<div class='row'>"+
                                                             "<div class='col-4'>"+
@@ -341,17 +341,17 @@ function abrirPastaCss(){
                                                                 "  Documento de fol..."+
                                                             "</div>"+
                                                         "</div>"+
-                                                        "</button>"
+                                                        "</button>";
                                                         //pasta css//
 
     document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt; <button onclick='abrirCvWeb()'>Cv Abril</button> > <button onclick='abrirPastaCss()'>css</button>";
 
     document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' data-dismiss='modal' aria-label='Close'> <img src='img/mini-pasta.png' width='22px'>Desktop</button>"+
                                                              "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirCvWeb()'>    <img src='img/mini-pasta.png' width='22px'>Cv Abril</button>"+
-                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaCss()'>    <img src='img/mini-pasta.png' width='22px'>css</button>"
+                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaCss()'>    <img src='img/mini-pasta.png' width='22px'>css</button>";
 }
 function abrirPastaJs(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>"
+    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>";
 
     document.getElementById("pastaPrincipal").innerHTML="<div class='row'>"+
                                                             "<div class='col-4'>"+
@@ -377,17 +377,17 @@ function abrirPastaJs(){
                                                                 "  Documento de fol..."+
                                                             "</div>"+
                                                         "</div>"+
-                                                        "</button>"
+                                                        "</button>";
                                                         //pasta css//
 
     document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt; <button onclick='abrirCvWeb()'>Cv Abril</button> > <button onclick='abrirPastaJs()'>js</button>";
 
     document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' data-dismiss='modal' aria-label='Close'> <img src='img/mini-pasta.png' width='22px'>Desktop</button>"+
                                                              "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirCvWeb()'>    <img src='img/mini-pasta.png' width='22px'>Cv Abril</button>"+
-                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaJs()'>    <img src='img/mini-pasta.png' width='22px'>js</button>"
+                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaJs()'>    <img src='img/mini-pasta.png' width='22px'>js</button>";
 }
 function abrirPastaImg(){
-    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>"
+    document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>";
 
     document.getElementById("pastaPrincipal").innerHTML=
                                                             "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:20px;margin-top:10px'><img src='img/3item.png' style='width:50px'> <br>3item </button>"+
@@ -414,18 +414,18 @@ function abrirPastaImg(){
                                                             "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:13px;margin-top:10px'><img src='img/interface.png' style='width:50px'> <br> memoria </button>"+
                                                             "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/interface.png' style='width:50px'> <br> interface </button>"+
                                                             "<button onclick='erroReprodizor()' data-toggle='modal' data-target='.bd-example-modal-sm' style='margin-left:10px;margin-top:10px'><img src='img/icons8-gif-80.png' style='width:50px'> <br> loading </button>"+
-                                                        "</div>"
+                                                        "</div>";
 
     document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt; <button onclick='abrirCvWeb()'>Cv Abril</button> > <button onclick='abrirPastaImg()'>img</button>";
 
     document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' data-dismiss='modal' aria-label='Close'> <img src='img/mini-pasta.png' width='22px'>Desktop</button>"+
                                                              "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirCvWeb()'>    <img src='img/mini-pasta.png' width='22px'>Cv Abril</button>"+
-                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaImg()'>    <img src='img/mini-pasta.png' width='22px'>img</button>"
+                                                             "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirPastaImg()'>    <img src='img/mini-pasta.png' width='22px'>img</button>";
 
 }
 // PASTA NO DESKTOP COM NOME "CV WEB" ESSA FUNÇÃO ABRE UM MODAL COM AS INFORMAÇÕES DA PASTA.
 function abrirContatos(){
-  document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>"
+  document.getElementById("button-home").innerHTML="<button style='margin-top: 5px; margin-left: 5px;' onclick='abrirCvWeb()'> <img src='img/home.png' width='100%'></button>";
 
   document.getElementById("pastaPrincipal").innerHTML="<div class='row'>"+
   "<div class='col-4'>"+
@@ -496,13 +496,13 @@ function abrirContatos(){
   "  HTML Document"+
   "</div>"+
   "</div>"+
-  "</button></a>"
+  "</button></a>";
   //WHATSAPP//
 
   document.getElementById("janela-pesquisa").innerHTML="<img src='img/mini-pasta.png' width='22px'> &gt; <button data-dismiss='modal' aria-label='Close'> Desktop </button> &gt;  <button onclick='abrirContatos()'>Contatos</button>";
 
   document.getElementById("barra-lateral-pasta").innerHTML="<br><button style='width: 100%; margin-left: 7px; text-align: left;' data-dismiss='modal' aria-label='Close'> <img src='img/mini-pasta.png' width='22px'>Desktop</button>"+
-  "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirContatos()'>    <img src='img/mini-pasta.png' width='22px'>Contatos</button>"
+  "<br><button style='width: 100%; margin-left: 7px; text-align: left;' onclick='abrirContatos()'>    <img src='img/mini-pasta.png' width='22px'>Contatos</button>";
 }
 function desejaSair(){
     document.getElementById("conteudo-erro").innerHTML= "<div class='col-12'><br>"+
@@ -517,7 +517,7 @@ function desejaSair(){
                                                                     "</div>"+
                                                                 "</div>"+
                                                             "<br>"+
-                                                         "</div>"
+                                                         "</div>";
 }
 function erroReprodizor(){
     document.getElementById("conteudo-erro").innerHTML="<div class='col-12'><br>"+
@@ -532,7 +532,7 @@ function erroReprodizor(){
                                                                 "</div>"+
                                                                 "<br><br><center><button type='button' class='btn btn-danger' aria-label='Close' data-dismiss='modal'>Fechar</button></center>"+
                                                             "<br>"+
-                                                        "</div>"
+                                                        "</div>";
 }
 
 //JS MOBILE
@@ -605,7 +605,7 @@ function myFunction() {
     alert("Função de Imprimir em desenvolvimento, caso esta ferramente não funcione corretamente, experimente baixar o arquivo!");
   }
 function Alerta(){
-    alert("Atenção, algum dos sites a seguir podem não funcionar corretamente no celular, os mesmos não foram orientados a serem totalmente responsivos.")
+    alert("Atenção, algum dos sites a seguir podem não funcionar corretamente no celular, os mesmos não foram orientados a serem totalmente responsivos.");
 }
 function startTime() {
     var today=new Date();
