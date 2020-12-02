@@ -541,8 +541,12 @@ function cProgramas() {
                                                             "<div class='projetos'>"+
                                                               "<div class='row' style='padding-top: 65px;'>"+
                                                                 "<div class='col-4'>"+
-                                                                  "<a href='https://github.com/srclayton/C-Programming/tree/master/credit%20card%20number%20validator' target='_blank'><button><img class='img' src='img/github.png' width='70px'></button></a>"+
+                                                                  "<a href='https://github.com/srclayton/Validador-de-cartao-de-credito' target='_blank'><button><img class='img' src='img/github.png' width='70px'></button></a>"+
                                                                   "card.c"+
+                                                                "</div>"+
+                                                                "<div class='col-4'>"+
+                                                                  "<a href='https://github.com/srclayton/C-Programming/tree/master/code%20string' target='_blank'><button><img class='img' src='img/github.png' width='70px'></button></a>"+
+                                                                  "codeString.c"+
                                                                 "</div>"+
                                                               "</div>"+
                                                             "</div>"+
