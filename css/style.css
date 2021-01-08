@@ -2,7 +2,7 @@
     .cont-container{
         margin-top: 5%;margin-bottom:5% ;
         width: 1024px;height: 720px;
-        background-image: url(../img/bg.jpg);
+        background-image: url(../img/27142.jpg);
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
     }
@@ -21,7 +21,7 @@
     .cont-container{
         margin-top: 5%;margin-bottom:5% ;
         width: 800px;height: 540px;
-        background-image: url(../img/bg.jpg);
+        background-image: url(../img/27142.jpg);
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
     }
@@ -145,7 +145,7 @@
     #desktop-alert{visibility: hidden;}
     body,body:fullscreen{
         font-size: small;
-        background-image: url(../img/bg.jpg);
+        background-image: url(../img/27142.jpg);
         color: rgb(255, 255, 255);
     }
     #conteudo-central{
@@ -174,7 +174,7 @@
     #pasta-projetos{background-color: rgba(255, 255, 255, 0.109);}
     .projetos{color: aliceblue;text-align: center;height: 320px;}
     .img{border-radius: 20%;}
-    #exampleModalCenter{background-image: url(../img/bg.jpg);overflow: hidden;}
+    #exampleModalCenter{background-image: url(../img/27142.jpg);overflow: hidden;}
     #pastas{background-color: rgba(255, 255, 255, 0.109);border-radius: 20%;}
 }
 
