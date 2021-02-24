@@ -453,11 +453,11 @@ function abrirContatos(){
   "</div>"+
   "</button></a>"+
   //GITHUB//
-  //FACEBOOK//
-  "<a href='https://www.facebook.com/ClaytonnSr/' target='_blank' ><button style='width:98%; margin-top: 5px; margin-left: 5px '>"+
+  //linkedin//
+  "<a href='https://www.linkedin.com/in/srclayton/' target='_blank' ><button style='width:98%; margin-top: 5px; margin-left: 5px '>"+
   "<div class='row' style='text-align:left'>"+
   "<div class='col-4'>"+
-  "<img src='img/facebook.png' width='25px'> Facebook"+
+  "<img src='img/linkedin.png' width='25px'> Linkedin"+
   "</div>"+
   "<div class='col-4'>"+
   " 25/10/2020 14:12pm"+
@@ -467,7 +467,7 @@ function abrirContatos(){
   "</div>"+
   "</div>"+
   "</button></a>"+
-  //FACEBOOK//
+  //linkedin//
   //EMAIL//
   "<a href='mailto:claytonsilvar@hotmail.com'><button style='width:98%; margin-top: 5px; margin-left: 5px '>"+
   "<div class='row' style='text-align:left'>"+
@@ -581,8 +581,8 @@ function pContatos() {
                                                         "<div class='projetos'>"+
                                                           "<div class='row' style='padding-top: 65px;'>"+
                                                             "<div class='col-4'>"+
-                                                              "<a href='https://www.facebook.com/ClaytonnSr/' target='_blank'><button><img class='img' src='img/facebook.png' width='70px'></button></a>"+
-                                                              "Facebook"+
+                                                              "<a href='https://www.linkedin.com/in/srclayton/' target='_blank'><button><img class='img' src='img/in.png' width='70px'></button></a>"+
+                                                              "Linkedin"+
                                                             "</div>"+
                                                             "<div class='col-4'>"+
                                                               "<a href='mailto:claytonsilvar@hotmail.com' target='_blank'><button><img class='img' src='img/enviar.png' width='70px'></button></a>"+
