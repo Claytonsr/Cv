@@ -1,3 +1,8 @@
+a{text-decoration: none;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
 @media screen and (min-width: 1500px){
     .cont-container{
         margin-top: 5%;margin-bottom:5% ;
@@ -16,6 +21,21 @@
         border-radius: 20px;
         text-align: center;
     }
+}
+.made-by-botter{
+    background-color: white;
+    color: #232946;
+    font-size: medium;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: solid 3px;
+    border-radius: 10px 2px;
+    border-color: black;
+    width: 200px;
+    position: fixed;
+    right: 50px;
+    bottom: 12px;
 }
 @media screen and (min-width: 601px) and (max-width:1499px) {
     .cont-container{

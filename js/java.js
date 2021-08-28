@@ -110,6 +110,27 @@ function erroReprodizor(){
                                                         "</div>";
 }
 
+function getTempoTrabalho(){
+  let today = new Date();
+  let dd = String(today.getDate()).padStart(2, '0');
+  let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+  let yyyy = today.getFullYear();
+  today = mm + '/' + dd + '/' + yyyy;
+  today = new Date(today);
+  let dateIni = new Date('5/5/2021');
+  let dateAtu = new Date(today.toString());
+  let timeDiff = Math.abs(dateIni.getTime() - dateAtu.getTime());
+  let diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+  mm = parseInt(diffDays/30);
+  dd = diffDays%30;
+  div = document.getElementById("tempo-de-servico");
+  if(mm > 0){
+    div.innerHTML= mm + ' meses e ' + dd + ' dias.';
+  }else {
+    div.innerHTML= dd + ' dias.';
+  }
+}
+
 //JS MOBILE
 function cProgramas() {
   document.getElementById('pasta-projetos').innerHTML="<div class='modal-body'>"+
