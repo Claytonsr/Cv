@@ -9,9 +9,18 @@
   border-bottom-left-radius: 5px;
   text-align: right;
 }
+.company-name{
+  margin-top: -10px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #F1E3D3;
+}
 .profile-img{
   text-align: center;
   width: 150px;
+  height: 150px;
+  object-fit: cover;
   border-radius: 50%;
   border-style: solid;
   border-width: 4px;

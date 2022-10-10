@@ -124,8 +124,19 @@ function getTempoTrabalho(){
   mm = parseInt(diffDays/30);
   dd = diffDays%30;
   div = document.getElementById("tempo-de-servico");
-  if(mm > 0){
+  if(mm > 0 && mm <= 12){
     div.innerHTML= mm + ' meses e ' + dd + ' dias.';
+  }else if(mm > 12){
+    yyyy = parseInt(mm/12);
+    mm = parseInt(mm%12);
+    if(yyyy > 1 && mm > 1)
+      div.innerHTML= yyyy + ' anos e ' + mm + ' meses.';
+    else if(yyyy > 1 && mm == 1)
+      div.innerHTML= yyyy + ' anos e ' + mm + ' mes.';
+    else if(yyyy == 1 && mm == 1)
+      div.innerHTML= yyyy + ' ano e ' + mm + ' mes.';
+    else
+      div.innerHTML= yyyy + ' ano e ' + mm + ' meses.';
   }else {
     div.innerHTML= dd + ' dias.';
   }
