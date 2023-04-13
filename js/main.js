@@ -117,7 +117,7 @@ function getTempoTrabalho(){
   let yyyy = today.getFullYear();
   today = mm + '/' + dd + '/' + yyyy;
   today = new Date(today);
-  let dateIni = new Date('5/5/2021');
+  let dateIni = new Date('4/5/2021');
   let dateAtu = new Date(today.toString());
   let timeDiff = Math.abs(dateIni.getTime() - dateAtu.getTime());
   let diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
@@ -125,20 +125,22 @@ function getTempoTrabalho(){
   dd = diffDays%30;
   div = document.getElementById("tempo-de-servico");
   if(mm > 0 && mm <= 12){
-    div.innerHTML= mm + ' meses e ' + dd + ' dias.';
+    div.innerHTML= mm + ' meses.';
   }else if(mm > 12){
     yyyy = parseInt(mm/12);
     mm = parseInt(mm%12);
     if(yyyy > 1 && mm > 1)
       div.innerHTML= yyyy + ' anos e ' + mm + ' meses.';
+    else if(yyyy == 1 && mm == 0)
+      div.innerHTML= yyyy + ' ano.';
+      else if(yyyy > 1 && mm == 0)
+      div.innerHTML= yyyy + ' anos.';  
     else if(yyyy > 1 && mm == 1)
       div.innerHTML= yyyy + ' anos e ' + mm + ' mes.';
     else if(yyyy == 1 && mm == 1)
       div.innerHTML= yyyy + ' ano e ' + mm + ' mes.';
     else
       div.innerHTML= yyyy + ' ano e ' + mm + ' meses.';
-  }else {
-    div.innerHTML= dd + ' dias.';
   }
 }
 
