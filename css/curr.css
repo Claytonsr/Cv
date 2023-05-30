@@ -4,6 +4,16 @@ html{overflow-x: hidden;}
   text-align: center;
   color: white;
 }
+.text-curri > ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+.text-curri > ul > li:after{content:","}
+.text-curri > ul > li:last-child:after{content:"."}
+.text-curri > ul > li{
+  display: inline-block; 
+}
+.font-weight-light > li:first-child{margin-top: 0.5rem}
 .right-page{
   background-color: #fffffe;
   border-top-left-radius: 5px;
@@ -11,7 +21,7 @@ html{overflow-x: hidden;}
   text-align: right;
 }
 .company-name{
-  margin-top: -10px;
+  margin-top: -15px;
   border-radius: 50%;
   border-style: solid;
   border-width: 4px;
